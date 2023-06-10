@@ -12,8 +12,8 @@ export default function Start(){
         <div>
             <h1 className={Join([styles['dark-blue'],styles.weight,styles.pad])}>
                 Hello <span className={Join([styles.weight,styles.black])}>React 17</span>
-                <img src="/images/react.png" alt="react-logo" />
-            </h1>
+                <img src="./src/images/react.png" alt="react-logo"/>
+            </h1> 
             {/* You can now start coding right here..*/}
         </div>
     )
