@@ -1,5 +1,5 @@
-.fonts {
-    color : rgb(32, 175, 241);
+.dark-blue {
+    color : rgb(24, 114, 156);
 }
 
 .weight {
@@ -8,6 +8,12 @@
 
 .pad {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     padding: 20px;
 }
+
+.black {
+    color: #000;
+}
+
+
