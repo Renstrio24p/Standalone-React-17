@@ -9,11 +9,11 @@ export default function Start(){
     })
 
     return (
-        <div>
+        <div className={Join([styles['d-flex-center']],styles.gap20)}>
             <h1 className={Join([styles['dark-blue'],styles.weight,styles.pad])}>
                 Hello <span className={Join([styles.weight,styles.black])}>React 17</span>
-                <img src="./src/images/react.png" alt="react-logo"/>
             </h1> 
+                <img className={Join([styles['img-size-50px'],styles.react])} src="/src/images/react.png" alt="react-logo"/>
             {/* You can now start coding right here..*/}
         </div>
     )

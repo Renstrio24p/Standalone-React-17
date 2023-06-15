@@ -7,7 +7,7 @@ import './assets/sass/index.scss'
 const DOM = ReactDOM
 DOM.render(
     <React.StrictMode>
-        <ReactApp /> {/* Replace <ReactApp /> to <Start />*/}
+        <Start /> {/* Replace <ReactApp /> to <Start />*/}
     </React.StrictMode>
     ,document.getElementById('root'))
 

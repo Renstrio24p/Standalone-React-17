@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'index.webpack.js',
+    filename: 'webpack.bundle.js',
     clean: true,
   },
   target: 'web',
@@ -15,7 +15,6 @@ module.exports = {
     port: '5500',
     static: {
       directory: path.join(__dirname, './src'),
-      watch: true
 },
     open: true,
     hot: true,
